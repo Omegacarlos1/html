@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'dm sans', sans-serif;
+}
+
+/* Header section */
+header{
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    color: #1E0E62;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: #1E0E62;
+}
+
+.btn1{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn2{
+    background: none;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 888px;
+    cursor: pointer;
+    columns: #1E0E62;
+}
+/* End of Header Section */

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Header Section */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    margin-bottom: 4rem;
+}
+
+span{
+    color: #1E0E62;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+     color: rgba(21, 20, 57, 0.4)
+}
+
+.header-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn1{
+    color: rgba(44, 62, 80, 1);
+    border: none;
+    background-color: rgba(255, 255, 255, 1)
+}
+
+.btn2{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(37, 218, 197, 1);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 999px;
+}
+
+/* End of Header Section */
+
+/* Hero section */
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.hero-div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color: rgba(30, 14, 98, 1);
+    font-size: 40px;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+
+input{
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 999px;
+    height: 40px;
+    color: #ffffff;
+    border: 5px;
+}
+
+
+.btn3{
+    width: 300px;
+    border: none;
+    border-radius: 999px;
+    height: 40px;
+    color: #ffffff;
+    background-color: rgba(37, 218, 197, 1);
+}
+
+p{
+    color: rgba(21, 20, 57, 0.4);
+}

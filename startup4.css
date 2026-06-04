@@ -1,0 +1,6 @@
+header{background-color: blue; grid-template-columns: 2; grid: 30%,30%,30%;}
+span{color: yellow;
+position : fixed }
+body{background-color: rgb(150, 150,150);background-color: #00ff00;}
+h1{color: blue; font-size: 30px;font-weight: bold;background-color: antiquewhite;font-style: italic;text-align: center;}
+#firstparagraph{color: red;}
